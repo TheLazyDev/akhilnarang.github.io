@@ -13,4 +13,6 @@ p {
     font-size: 20px;
     color: Black;
 }
-
+ul {
+	text-align: center;
+}
