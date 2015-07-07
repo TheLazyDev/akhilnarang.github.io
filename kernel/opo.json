@@ -1,0 +1,65 @@
+{
+  "name": "<b><font color=\"#FFFFFF\">OwnKernel</font></b>",
+  "short_description": "A kernel by <b>akhilnarang</b>",
+  "long_description": "Welcome to <b>OwnKernel</b>!<hr><a href=\"http://www.github.com/akhilnarang\">My Github Profile</a><hr>Enjoy My OwnKernel For OnePlus One :D !!!",
+  "logo": "https://avatars1.githubusercontent.com/u/12529301?v=3&s=200",
+  "xda": "http://http://bit.ly/okbacon",
+  "github": "https://github.com/OwnROM-Devices/OwnKernel-bacon",
+  "google_plus": "https://plus.google.com/+AkhilNarang",
+  "features": [
+    "CM Based",
+    "Linux Kernel 3.4.108",
+    "Compiled with UBER Toolchain 6.0 and -Ofast flags",
+    {
+      "name": "CPU Governors",
+      "items": [
+        "interactive",
+        "ondemand (default)",
+        "userspace",
+        "powersave",
+        "performance",
+        "zzmoove",
+        "pegassusq",
+        "nightmare",
+        "lionheart"
+      ]
+    },
+    {
+      "name": "GPU Governors",
+      "items": [
+        "cpufreq",
+        "msm-adreno-tz (default)",
+        "userspace",
+        "powersave",
+        "performance",
+        "simple_ondemand",
+        "cache_hwmon",
+        "cpubw_hwmon"
+      ]
+    },
+    {
+      "name": "I/O Schedulers",
+      "items": [
+        "noop",
+        "deadline",
+        "row (default)",
+        "cfq",
+        "test-iosched"
+      ]
+    },
+    "Sweep2Sleep",
+    "Touch Boost",
+    "Init.d scripts"
+  ],
+  "downloads": [
+    {
+      "name": "OwnKernel-Bacon-1.0",
+      "description": "<b>Only for <i>CM based ROMs</i></b>",
+      "url": "https://de1.androidfilehost.com/dl/udnUT_o64c6CTuPqJk-iyw/1436321356/24052804347763754/OwnKernel-Bacon-V1.0.zip",
+      "md5sum": "589c3edcfda89e9fe868296b6b1a10d8",
+      "changelog": [
+        "Initial Release"
+      ]
+    }
+  ]
+}
