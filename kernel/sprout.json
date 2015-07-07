@@ -1,0 +1,54 @@
+{
+  "name": "<b><font color=\"#FFFFFF\">OwnKernel</font></b>",
+  "short_description": "A kernel by <b>akhilnarang</b>",
+  "long_description": "Welcome to <b>OwnKernel</b>!<hr><a href=\"http://www.github.com/akhilnarang\">My Github Profile</a><hr>Enjoy My OwnKernel For Android One :D !!!",
+  "logo": "https://avatars1.githubusercontent.com/u/12529301?v=3&s=200",
+  "xda": "http://http://bit.ly/ownsprout",
+  "github": "https://github.com/OwnROM-Devices/OwnKernel-sprout",
+  "google_plus": "https://plus.google.com/+AkhilNarang",
+  "features": [
+    "CM Based",
+    "Linux Kernel 3.10.83",
+    "Compiled with UBER Toolchain 6.0 and -Ofast flags",
+    {
+      "name": "CPU Governors",
+      "items": [
+        "interactive (default)",
+        "ondemand",
+        "userspace",
+        "powersave",
+        "performance"
+      ]
+    },
+    {
+      "name": "I/O Schedulers",
+      "items": [
+        "noop",
+        "deadline",
+        "fiops (default)",
+        "cfq",
+        "row"
+      ]
+    },
+    "Sweep2Sleep",
+    "DoubleTapn2Wake",
+    "Sweep2Wake",
+    "Dynamic Fsync",
+    "ThunderQuake Engine",
+    "Intelli-Plug",
+    "Mako HotPlug",
+    "Alucard's HotPlug",
+    "Latest Linux Kernel Version 3.10.83"
+  ],
+  "downloads": [
+    {
+      "name": "OwnKernel-sprout-5.1",
+      "description": "<b><i><u>Great!!!</u></i></b>",
+      "url": "https://de1.androidfilehost.com/dl/_GeJstijWFuZmsiMjNaNGw/1436321726/24052804347767942/OwnKernel_sprout-5.1.zip",
+      "md5sum": "a98f38ea87ec3ec49fbc9fee76d86408",
+      "changelog": [
+        "Update to 3.10.82"
+      ]
+    }
+  ]
+}
