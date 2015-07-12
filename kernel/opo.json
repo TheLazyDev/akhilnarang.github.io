@@ -1,7 +1,7 @@
 {
   "name": "<b><font color=\"#FFFFFF\">OwnKernel</font></b>",
   "short_description": "A kernel by <b>akhilnarang</b>",
-  "long_description": "Welcome to <b>OwnKernel</b>!<hr><a href=\"http://www.github.com/akhilnarang\">My Github Profile</a><hr>Enjoy My OwnKernel For OnePlus One :D !!!",
+  "long_description": "Welcome to <b>OwnKernel</b>!<br/><a href=\"http://www.github.com/akhilnarang\">My Github Profile</a><br/>Enjoy My OwnKernel For OnePlus One :D !!!",
   "logo": "https://avatars1.githubusercontent.com/u/12529301?v=3&s=200",
   "xda": "http://http://bit.ly/okbacon",
   "github": "https://github.com/OwnROM-Devices/OwnKernel-bacon",
@@ -55,7 +55,7 @@
     {
       "name": "OwnKernel-Bacon-1.0",
       "description": "<b>Only for <i>CM based ROMs</i></b>",
-      "url": "http://downloads.sourceforge.net/project/ownrom/OnePlus%20One/OwnKernel/OwnKernel-bacon-V1.0.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fownrom%2Ffiles%2FOnePlus%2520One%2FOwnKernel%2F&ts=1436449366&use_mirror=nchc",
+      "url": "http://downloads.sourceforge.net/project/ownrom/OnePlusOne/OwnKernel/OwnKernel-bacon-V1.0.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fownrom%2Ffiles%2FOnePlusOne%2FOwnKernel%2F&ts=1436449366&use_mirror=nchc",
       "md5sum": "589c3edcfda89e9fe868296b6b1a10d8",
       "changelog": [
         "Initial Release"
