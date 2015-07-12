@@ -10,6 +10,13 @@
     "CM Based",
     "Linux Kernel 3.4.108",
     "Compiled with UBER Toolchain 6.0 and -Ofast flags",
+    "Sweep2Sleep",
+    "Touch Boost",
+    "Init.d scripts",
+    "Adreno Idler",
+    "ZRAM",
+    "Cortex A-15, and GPU Optimizations",
+    "Many more tweaks, check GitHub",
     {
       "name": "CPU Governors",
       "items": [
@@ -52,13 +59,24 @@
         "SIO"
       ]
     },
-    "Sweep2Sleep",
-    "Touch Boost",
-    "Init.d scripts",
-    "Adreno Idler",
-    "ZRAM",
-    "Cortex A-15, and GPU Optimizations",
-    "Many more tweaks, check GitHub"
+    {
+      "name": "TCP Congestion Controls",
+      "items": [
+        "westwood (default)",
+        "reno",
+        "bic",
+        "cubic",
+        "highspeed",
+        "hybla",
+        "htcp",
+        "vegas",
+        "veno",
+        "scaleable",
+        "lp",
+        "yeah",
+        "illinois"
+      ]
+    }
   ],
   "downloads": [
     {
