@@ -1,14 +1,14 @@
 {
   "name": "<b><font color=\"#FFFFFF\">OwnKernel</font></b>",
   "short_description": "A kernel by <b>akhilnarang</b>",
-  "long_description": "Welcome to <b>OwnKernel</b>!<hr><a href=\"http://www.github.com/akhilnarang\">My Github Profile</a><hr>Enjoy My OwnKernel For Android One :D !!!",
+  "long_description": "Welcome to <b>OwnKernel</b>!<br/><a href=\"http://www.github.com/akhilnarang\">My Github Profile</a><br/>Enjoy My OwnKernel For Android One :D !!!",
   "logo": "https://avatars1.githubusercontent.com/u/12529301?v=3&s=200",
   "xda": "http://http://bit.ly/ownsprout",
   "github": "https://github.com/OwnROM-Devices/OwnKernel-sprout",
   "google_plus": "https://plus.google.com/+AkhilNarang",
   "features": [
     "CM Based",
-    "Linux Kernel 3.10.83",
+    "Linux Kernel 3.10.84",
     "Compiled with UBER Toolchain 6.0 and -Ofast flags",
     {
       "name": "CPU Governors",
@@ -17,7 +17,11 @@
         "ondemand",
         "userspace",
         "powersave",
-        "performance"
+        "performance",
+	"blu_active",
+	"elementalx",
+	"alucard",
+	"wheatley"
       ]
     },
     {
@@ -25,9 +29,11 @@
       "items": [
         "noop",
         "deadline",
-        "fiops (default)",
+        "bfq (default)",
         "cfq",
-        "row"
+        "row",
+	"fiops",
+	"zen"
       ]
     },
     "Sweep2Sleep",
@@ -36,19 +42,31 @@
     "Dynamic Fsync",
     "ThunderQuake Engine",
     "Intelli-Plug",
-    "Mako HotPlug",
-    "Alucard's HotPlug",
-    "Latest Linux Kernel Version 3.10.83"
+    "blu_plug hotplug driver",
+    "Latest Linux Kernel Version 3.10.84"
   ],
   "downloads": [
     {
-      "name": "OwnKernel-sprout-5.1",
+      "name": "OwnKernel_sprout-5.1",
       "description": "<b><i><u>Great!!!</u></i></b>",
       "url": "http://downloads.sourceforge.net/project/ownrom/Sprout/OwnKernel/OwnKernel_sprout-5.1.zip?r=&ts=1436448994&use_mirror=nchc",
       "md5sum": "a98f38ea87ec3ec49fbc9fee76d86408",
       "changelog": [
         "Update to 3.10.82"
       ]
-    }
+    },
+    {
+      "name": "OwnKernel_sprout-5.5",
+      "description": "Great!!!",
+      "url": "https://basketbuild.com/dl/devs?dl=akhil1999/OwnKernel/sprout/OwnKernel_sprout-5.5.zip",
+      "md5sum": "3a647e14cc4c9567483991e13789155e",
+      "changelog": [
+	"blu_active, ElementalX, Alucard, Wheatley CPU Governors, disabled smartmax",
+	"Kernel Adiutor Download Support",
+	"BFQ, Zen, few other IO Schedulers",
+	"blu_plug, intelli-plug, removed alucard and mako hotplug",
+	"Upstreamed to latest linux kernel version 3.10.84"
+	]
+
   ]
 }
