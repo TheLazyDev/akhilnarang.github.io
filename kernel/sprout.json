@@ -7,8 +7,8 @@
   "github": "https://github.com/OwnROM-Devices/OwnKernel-sprout",
   "google_plus": "https://plus.google.com/+AkhilNarang",
   "features": [
-    "CM Based",
-    "Linux Kernel 3.10.84",
+    "Based on latest source from AOSP (5.1.1_r0.16), and CM",
+    "Linux Kernel 3.10.85",
     "Compiled with UBER Toolchain 6.0 and -Ofast flags",
     {
       "name": "CPU Governors",
@@ -43,7 +43,7 @@
     "ThunderQuake Engine",
     "Intelli-Plug",
     "blu_plug hotplug driver",
-    "Latest Linux Kernel Version 3.10.84"
+    "Lots of random tweaks"
   ],
   "downloads": [
     {
@@ -66,6 +66,27 @@
 	"BFQ, Zen, few other IO Schedulers",
 	"blu_plug, intelli-plug, removed alucard and mako hotplug",
 	"Upstreamed to latest linux kernel version 3.10.84"
+	]
+    },
+    {
+      "name": "OwnKernel_sprout-6.0",
+      "description": "epic stuff",
+      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.0.zip/download",
+      "md5sum": "b8f32b5257693bad0a0e00cc133fb28c",
+      "changelog": [
+	"Merged latest 3.10.85",
+	"Wake Up Delay Fixed",
+	"Latest sources from AOSP",
+	"Lots of random patches from Radium-Kernel :P"
+	]
+    },
+    {
+      "name": "OwnKernel_sprout-6.1",
+      "description": "The Latest And The Greatest",
+      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.1.zip/download",
+      "md5sum": "02704662347d2a6fb6d1b8b22bd2e4af",
+      "changelog": [
+	"Set SELinux as permissive (Else same as 6.0"
 	]
     }
 
