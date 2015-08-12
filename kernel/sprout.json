@@ -1,6 +1,6 @@
 {
   "name": "<b><font color=\"#FFFFFF\">OwnKernel</font></b>",
-  "short_description": "A kernel by <b>akhilnarang</b>",
+  "short_description": "A kernel by Akhil Narang",
   "long_description": "Welcome to <b>OwnKernel</b>!<br/><a href=\"http://www.github.com/akhilnarang\">My Github Profile</a><br/>Enjoy My OwnKernel For Android One :D !!!",
   "logo": "https://avatars1.githubusercontent.com/u/12529301?v=3&s=200",
   "xda": "http://http://bit.ly/ownsprout",
@@ -8,8 +8,8 @@
   "google_plus": "https://plus.google.com/+AkhilNarang",
   "features": [
     "Based on latest source from AOSP (5.1.1_r0.16), and CM",
-    "Linux Kernel 3.10.85",
-    "Compiled with UBER Toolchain 6.0 and -Ofast flags",
+    "Linux Kernel 3.10.86",
+    "Compiled with ArchiToolchain 5.1 optimized for cortex-a7 and -Ofast flags",
     {
       "name": "CPU Governors",
       "items": [
@@ -46,15 +46,40 @@
     "Lots of random tweaks"
   ],
   "downloads": [
+  
+  
     {
-      "name": "OwnKernel_sprout-5.1",
-      "description": "<b><i><u>Great!!!</u></i></b>",
-      "url": "http://downloads.sourceforge.net/project/ownrom/Sprout/OwnKernel/OwnKernel_sprout-5.1.zip?r=&ts=1436448994&use_mirror=nchc",
-      "md5sum": "a98f38ea87ec3ec49fbc9fee76d86408",
+      "name": "OwnKernel_sprout-6.2",
+      "description": "The Latest And The Greatest",
+      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.2.zip/download",
+      "md5sum": "002919541ac13555247d3db22620f5ac",
       "changelog": [
-        "Update to 3.10.82"
-      ]
+	"Merge v3.10.86 of linux kernel",
+	"Compiled with ArchiToolchain 5.1 optimized for Cortex-A7"
+	]
     },
+    {
+      "name": "OwnKernel_sprout-6.1",
+      "description": "Meh :v \nWon't really affect unless you use v4a or aosp based roms",
+      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.1.zip/download",
+      "md5sum": "02704662347d2a6fb6d1b8b22bd2e4af",
+      "changelog": [
+	"Set SELinux as permissive (Else same as 6.0"
+	]
+    },
+      {
+      "name": "OwnKernel_sprout-6.0",
+      "description": "epic stuff",
+      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.0.zip/download",
+      "md5sum": "b8f32b5257693bad0a0e00cc133fb28c",
+      "changelog": [
+	"Merged latest 3.10.85",
+	"Wake Up Delay Fixed",
+	"Latest sources from AOSP",
+	"Lots of random patches from Radium-Kernel :P"
+	]
+    },
+     
     {
       "name": "OwnKernel_sprout-5.5",
       "description": "Great!!!",
@@ -69,25 +94,13 @@
 	]
     },
     {
-      "name": "OwnKernel_sprout-6.0",
-      "description": "epic stuff",
-      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.0.zip/download",
-      "md5sum": "b8f32b5257693bad0a0e00cc133fb28c",
+      "name": "OwnKernel_sprout-5.1",
+      "description": "<b><i><u>Great!!!</u></i></b>",
+      "url": "http://downloads.sourceforge.net/project/ownrom/Sprout/OwnKernel/OwnKernel_sprout-5.1.zip?r=&ts=1436448994&use_mirror=nchc",
+      "md5sum": "a98f38ea87ec3ec49fbc9fee76d86408",
       "changelog": [
-	"Merged latest 3.10.85",
-	"Wake Up Delay Fixed",
-	"Latest sources from AOSP",
-	"Lots of random patches from Radium-Kernel :P"
-	]
-    },
-    {
-      "name": "OwnKernel_sprout-6.1",
-      "description": "The Latest And The Greatest",
-      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.1.zip/download",
-      "md5sum": "02704662347d2a6fb6d1b8b22bd2e4af",
-      "changelog": [
-	"Set SELinux as permissive (Else same as 6.0"
-	]
+        "Update to 3.10.82"
+      ]
     }
 
   ]
