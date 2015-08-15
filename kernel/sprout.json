@@ -51,7 +51,7 @@
     {
       "name": "OwnKernel_sprout-6.2",
       "description": "The Latest And The Greatest",
-      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.2.zip/download",
+      "url": "http://sourceforge.net/projects/ownrom/files/sprout/OwnKernel/OwnKernel_sprout-6.2.zip/download",
       "md5sum": "002919541ac13555247d3db22620f5ac",
       "changelog": [
 	"Merge v3.10.86 of linux kernel",
@@ -61,7 +61,7 @@
     {
       "name": "OwnKernel_sprout-6.1",
       "description": "Meh :v \nWon't really affect unless you use v4a or aosp based roms",
-      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.1.zip/download",
+      "url": "http://sourceforge.net/projects/ownrom/files/sprout/OwnKernel/OwnKernel_sprout-6.1.zip/download",
       "md5sum": "02704662347d2a6fb6d1b8b22bd2e4af",
       "changelog": [
 	"Set SELinux as permissive (Else same as 6.0"
@@ -70,7 +70,7 @@
       {
       "name": "OwnKernel_sprout-6.0",
       "description": "epic stuff",
-      "url": "http://sourceforge.net/projects/ownrom/files/Sprout/OwnKernel/OwnKernel_sprout-6.0.zip/download",
+      "url": "http://sourceforge.net/projects/ownrom/files/sprout/OwnKernel/OwnKernel_sprout-6.0.zip/download",
       "md5sum": "b8f32b5257693bad0a0e00cc133fb28c",
       "changelog": [
 	"Merged latest 3.10.85",
@@ -96,7 +96,7 @@
     {
       "name": "OwnKernel_sprout-5.1",
       "description": "<b><i><u>Great!!!</u></i></b>",
-      "url": "http://downloads.sourceforge.net/project/ownrom/Sprout/OwnKernel/OwnKernel_sprout-5.1.zip?r=&ts=1436448994&use_mirror=nchc",
+      "url": "http://downloads.sourceforge.net/project/ownrom/sprout/OwnKernel/OwnKernel_sprout-5.1.zip?r=&ts=1436448994&use_mirror=nchc",
       "md5sum": "a98f38ea87ec3ec49fbc9fee76d86408",
       "changelog": [
         "Update to 3.10.82"
