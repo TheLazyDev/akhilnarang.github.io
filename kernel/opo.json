@@ -9,13 +9,14 @@
   "features": [
     "CM Based",
     "Linux Kernel 3.4.108",
-    "Compiled with UBER Toolchain 6.0 and -Ofast flags",
+    "Compiled with ArchiToolchain optimized for cortex-a15 and -Ofast flags",
     "Sweep2Sleep",
     "Touch Boost",
-    "Init.d scripts",
+    "Dynamic FSync",
     "Adreno Idler",
     "ZRAM",
-    "Cortex A-15, and GPU Optimizations",
+    "Cortex A-15, and GPU Optimizations & Overclock",
+    "Many optimizations flags",
     "Many more tweaks, check GitHub",
     {
       "name": "CPU Governors",
@@ -30,7 +31,10 @@
         "nightmare",
         "lionheart",
         "impulse",
-        "smartmax"
+        "smartmax",
+        "intelliactive",
+        "intellidemand",
+        "wheatley"
       ]
     },
     {
@@ -56,7 +60,8 @@
         "CFQ",
         "test-iosched",
         "zen",
-        "SIO"
+        "SIO",
+        "tripndroid"
       ]
     },
     {
@@ -80,6 +85,23 @@
   ],
   "downloads": [
   
+  {
+      "name": "OwnKernel-Bacon-1.2",
+      "description": "<b>Only for <i>CM based ROMs</i></b>",
+      "url": "http://sourceforge.net/projects/ownrom/files/bacon/OwnKernel/OwnKernel-Bacon-V1.2-20150816.zip/download",
+      "md5sum": "39da78d04c8be3ad554139d698c3e86f",
+      "changelog": [
+        "Merged latest updates from CyanogenMod",
+        "Added TripNDroid I/O scheduler",
+        "Added Intelliactive, intellidemand,and Governors",
+        "Dynamic FSync",
+        "Lots of optimizations flags added",
+        "GPU OC till 657Mhz",
+        "Update zzmoove, and BFQ",
+        "Compiled with ArchiToolchain 5.1 optimized for Cortex-A15",
+        "Some things I don't remember, check here http://hastebin.com/nugukesimi.vhdl"
+      ]
+    },
     {
       "name": "OwnKernel-Bacon-1.1",
       "description": "<b>Only for <i>CM based ROMs</i></b>",
