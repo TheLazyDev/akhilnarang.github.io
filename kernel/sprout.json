@@ -8,7 +8,7 @@
   "google_plus": "https://plus.google.com/+AkhilNarang",
   "features": [
     "Based on latest source from AOSP (5.1.1_r0.16), and CM",
-    "Linux Kernel 3.10.86",
+    "Linux Kernel 3.10.87",
     "Compiled with ArchiToolchain 5.1 optimized for cortex-a7 and -Ofast flags",
     {
       "name": "CPU Governors",
@@ -42,15 +42,24 @@
     "Dynamic Fsync",
     "ThunderQuake Engine",
     "Intelli-Plug",
-    "blu_plug hotplug driver",
     "Lots of random tweaks"
   ],
   "downloads": [
   
   
     {
-      "name": "OwnKernel_sprout-6.2",
+      "name": "OwnKernel_sprout-6.3",
       "description": "The Latest And The Greatest",
+      "url": "http://sourceforge.net/projects/ownrom/files/sprout/OwnKernel/OwnKernel_sprout-6.3.zip/download",
+      "md5sum": "e4c0dcf048851011e30528c12bb86816",
+      "changelog": [
+	"Merge v3.10.87 of linux kernel",
+	"Temporarily disable blu_plug to check whether it is causing the lag :v"
+	]
+    },
+    {
+      "name": "OwnKernel_sprout-6.2",
+      "description": "The Latest And The Greatest[NOT]",
       "url": "http://sourceforge.net/projects/ownrom/files/sprout/OwnKernel/OwnKernel_sprout-6.2.zip/download",
       "md5sum": "002919541ac13555247d3db22620f5ac",
       "changelog": [
