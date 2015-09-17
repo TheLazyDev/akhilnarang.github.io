@@ -9,7 +9,7 @@
   "features": [
     "CM Based",
     "Linux Kernel 3.4.108",
-    "Compiled with ArchiToolchain optimized for cortex-a15 and -Ofast flags",
+    "Compiled with UberTC-5.2 optimized for cortex-a15 and -Ofast flags",
     "Sweep2Sleep",
     "Touch Boost",
     "Dynamic FSync",
@@ -85,6 +85,22 @@
   ],
   "downloads": [
   
+  {
+      "name": "OwnKernel-Bacon-1.3",
+      "description": "<b>The Latest And The Greatest!</b>",
+      "url": "http://sourceforge.net/projects/ownrom/files/bacon/OwnKernel/OwnKernel-Bacon-V1.3-20150917.zip/download",
+      "md5sum": "41c5233396f29013bcb8e0409f09be30",
+      "changelog": [
+        "makefile: added new -g0, -fivopts, -fno-inline-function optimizations",
+        "KCAL updates",
+        "Update interactive governor",
+        "Merge CM",
+        "Update zzmoove, and BFQ",
+        "Compiled with UberTC 5.2 optimized for Cortex-A15",
+        "Some things I don't remember, check here http://hastebin.com/azahacisim.vhdl",
+        "Although that link says Bricked Hotplug, it'll be there later, disabled for now :v"
+      ]
+    },
   {
       "name": "OwnKernel-Bacon-1.2",
       "description": "<b>Only for <i>CM based ROMs</i></b>",
